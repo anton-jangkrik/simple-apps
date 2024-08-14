@@ -1,6 +1,6 @@
 services:
   simple-apps:
-    image: anton/simple-apps
+    image: antonjangkrik/simple-apps
     build: ./app
     ports:
       - 3000:3000
