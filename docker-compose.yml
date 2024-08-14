@@ -1,0 +1,10 @@
+services:
+  simple-apps:
+    image: anton/simple-apps
+    build: ./app
+    ports:
+      - 3000:3000
+    volumes:
+      - vol-simple-apps: /app
+volumes:
+  vol-simple-apps: {}
