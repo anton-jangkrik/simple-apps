@@ -5,6 +5,6 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - vol-simple-apps: /app
+      - vol-simple-apps:/app
 volumes:
   vol-simple-apps: {}
